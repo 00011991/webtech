@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bon! Concept by 00011991</title>
+    <!-- CONNECTING CSS FILE -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/contacts.css" />
+  </head>
+  <body>
+    <!-- SPINNER -->
+    <div class="spinner">
+      <div class="lds-roller">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <div class="header-top">
+          <div class="burger-menu">
+            <label for="dropdownIcon" class="burger-label">
+              <input type="checkbox" id="dropdownIcon" class="burger-icon" />
+              <span class="burger-line"></span>
+              <span class="burger-line"></span>
+              <span class="burger-line"></span>
+            </label>
+            <div class="dropdown">
+              <nav>
+                <ul>
+                  <li><a href="index.html">Menu</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="delivery.html"> Delivery </a></li>
+                  <li><a href="contacts.html"> Contacts </a></li>
+                  <li><a href="staff.html"> Our Staff </a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="header-nav">
+            <a href="index.html">
+              <img
+                src="./assets/img/logo-bon.jpeg"
+                alt="logo"
+                class="header-nav-logo"
+              />
+            </a>
+            <nav>
+              <ul>
+                <li><a href="index.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="delivery.html"> Delivery </a></li>
+                <li><a href="contacts.html" class="active"> Contacts </a></li>
+                <li><a href="staff.html"> Our Staff </a></li>
+              </ul>
+            </nav>
+          </div>
+          <a href="cart.html">
+            <img
+              src="./assets/icons/cart.svg"
+              alt="Cart header-cart-icon"
+              class="header-cart-icon"
+            />
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <div class="container">
+        <h3 class="main-heading">Contacts</h3>
+        <form class="contacts">
+          <h4>Fill the form to send the message!</h4>
+          <div class="form-box">
+            <label for="name">Name:</label>
+            <input name="name" id="name" type="text" />
+          </div>
+          <div class="form-box">
+            <label for="email">Email:</label>
+            <input name="email" id="email" type="text" />
+          </div>
+          <div class="form-box">
+            <label for="phone">Phone:</label>
+            <input name="phone" id="phone" type="text" />
+          </div>
+          <div class="form-box">
+            <label for="message">Message:</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+
+    <!-- FOOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-hours">
+          <p>
+            Working Hours <br />
+            From 8:00 to 22:00
+          </p>
+          <div class="footer-copyright">
+            2022 © Bon!
+            <span>Policy</span>
+          </div>
+        </div>
+        <img
+          src="./assets//img/logo-bon-white.jpeg"
+          alt="Logo Bon White Edition"
+          class="footer-logo"
+        />
+        <div class="footer-contacts">
+          <a href="https://taplink.cc/boncafe.uz"
+            >Menu, ToGo Orders, Locations</a
+          >
+          <div class="footer-socials">
+            <a
+              href="https://www.instagram.com/boncafe.uz/?hl=en"
+              target="_blank"
+            >
+              <img src="./assets/icons/ig.svg" alt="IG Icon" />
+            </a>
+            <a href="https://www.facebook.com/boncafe/" target="_blank">
+              <img src="./assets/icons/meta.svg" alt="Meta Icon" />
+            </a>
+            <a href="https://t.me/bon_uzbot" target="_blank">
+              <img src="./assets/icons/tg.svg" alt="TG Icon" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <p class="cw-requirements">
+        “This website was created to fulfill Web Technology module’s
+        requirements and does not represent an actual company or service.”
+      </p>
+    </footer>
+
+    <!-- CONNECTING JS FILE -->
+    <script src="script.js"></script>
+    <script src="form.js"></script>
+  </body>
+</html>
