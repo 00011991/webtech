@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bon! Concept by 00011991</title>
+    <!-- CONNECTING CSS FILE -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/delivery.css" />
+  </head>
+  <body>
+    <!-- SPINNER -->
+    <div class="spinner">
+      <div class="lds-roller">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <div class="header-top">
+          <div class="burger-menu">
+            <label for="dropdownIcon" class="burger-label">
+              <input type="checkbox" id="dropdownIcon" class="burger-icon" />
+              <span class="burger-line"></span>
+              <span class="burger-line"></span>
+              <span class="burger-line"></span>
+            </label>
+            <div class="dropdown">
+              <nav>
+                <ul>
+                  <li><a href="index.html">Menu</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="delivery.html"> Delivery </a></li>
+                  <li><a href="contacts.html"> Contacts </a></li>
+                  <li><a href="staff.html"> Our Staff </a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="header-nav">
+            <a href="index.html">
+              <img
+                src="./assets/img/logo-bon.jpeg"
+                alt="logo"
+                class="header-nav-logo"
+              />
+            </a>
+            <nav>
+              <ul>
+                <li><a href="index.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="delivery.html" class="active"> Delivery </a></li>
+                <li><a href="contacts.html"> Contacts </a></li>
+                <li><a href="staff.html"> Our Staff </a></li>
+              </ul>
+            </nav>
+          </div>
+          <a href="cart.html">
+            <img
+              src="./assets/icons/cart.svg"
+              alt="Cart header-cart-icon"
+              class="header-cart-icon"
+            />
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <div class="container">
+        <div class="delivery">
+          <h2 class="main-heading">Food delivery from Bon!</h2>
+          <p class="delivery-info">Delivery is available on:</p>
+          <ul class="delivery-list">
+            <li>Express</li>
+            <li>Telegram Bot</li>
+            <li>Tezkor</li>
+          </ul>
+          <div class="delivery-box">
+            <div class="delivery-item">
+              <img src="./assets/icons/hours.svg" alt="Hours Icon" />
+              <h3>Working hours:</h3>
+              <p>8:00-22:00</p>
+            </div>
+            <div class="delivery-item">
+              <img src="./assets/icons/fast.svg" alt="Fast Icon" />
+              <h3>Express Delivery</h3>
+            </div>
+            <div class="delivery-item">
+              <img src="./assets/icons/money.svg" alt="Money Icon" />
+              <h3>Free Delivery for 100k+ order:</h3>
+            </div>
+          </div>
+          <!-- MAP INTEGRATION -->
+          <div style="position: relative; overflow: hidden; width: 100%">
+            <a
+              href="https://yandex.com/maps?utm_medium=mapframe&utm_source=maps"
+              style="color: #eee; font-size: 12px; position: absolute; top: 0px"
+              >Yandex Maps</a
+            ><a
+              href="https://yandex.com/maps/?ll=38.583678%2C55.221603&utm_medium=mapframe&utm_source=maps&z=7"
+              style="
+                color: #eee;
+                font-size: 12px;
+                position: absolute;
+                top: 14px;
+              "
+              >Yandex Maps: search for places, transport, and routes</a
+            ><iframe
+              src="https://yandex.com/map-widget/v1/-/CCU6VZTjXC"
+              width="100%"
+              height="400"
+              frameborder="1"
+              allowfullscreen="true"
+              style="position: relative"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-hours">
+          <p>
+            Working Hours <br />
+            From 8:00 to 22:00
+          </p>
+          <div class="footer-copyright">
+            2022 © Bon!
+            <span>Policy</span>
+          </div>
+        </div>
+        <img
+          src="./assets//img/logo-bon-white.jpeg"
+          alt="Logo Bon White Edition"
+          class="footer-logo"
+        />
+        <div class="footer-contacts">
+          <a href="https://taplink.cc/boncafe.uz"
+            >Menu, ToGo Orders, Locations</a
+          >
+          <div class="footer-socials">
+            <a
+              href="https://www.instagram.com/boncafe.uz/?hl=en"
+              target="_blank"
+            >
+              <img src="./assets/icons/ig.svg" alt="IG Icon" />
+            </a>
+            <a href="https://www.facebook.com/boncafe/" target="_blank">
+              <img src="./assets/icons/meta.svg" alt="Meta Icon" />
+            </a>
+            <a href="https://t.me/bon_uzbot" target="_blank">
+              <img src="./assets/icons/tg.svg" alt="TG Icon" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <p class="cw-requirements">
+        “This website was created to fulfill Web Technology module’s
+        requirements and does not represent an actual company or service.”
+      </p>
+    </footer>
+
+    <!-- CONNECTING JS FILE -->
+    <script src="script.js"></script>
+  </body>
+</html>
